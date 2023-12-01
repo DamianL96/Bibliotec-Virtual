@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Biblioteca" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Facturas" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Facturas" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Manager.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuCliente.h" />
+		<Unit filename="menuGeneral.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuGeneral.h" />
+		<Unit filename="stCliente/ArchivosClientes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stCliente/ArchivosClientes.h" />
+		<Unit filename="stCliente/arbol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stCliente/arbol.h" />
+		<Unit filename="stCliente/stCliente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stCliente/stCliente.h" />
+		<Unit filename="stFacturas/archivoFacturas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stFacturas/archivoFacturas.h" />
+		<Unit filename="stFacturas/listaFactura.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stFacturas/listaFactura.h" />
+		<Unit filename="stFacturas/stFactura.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stFacturas/stFactura.h" />
+		<Unit filename="stFacturas/stProducto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stFacturas/stProducto.h" />
+		<Unit filename="stLibros/ArchivosLibros.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stLibros/ArchivosLibros.h" />
+		<Unit filename="stLibros/tdaListaGenero.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stLibros/tdaListaGenero.h" />
+		<Unit filename="stLibros/tdaListaLibros.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stLibros/tdaListaLibros.h" />
+		<Unit filename="stUsuario/archivoUsuario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stUsuario/archivoUsuario.h" />
+		<Unit filename="stUsuario/listaUsuario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stUsuario/listaUsuario.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

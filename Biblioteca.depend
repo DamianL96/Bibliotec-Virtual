@@ -1,0 +1,172 @@
+# depslib dependency file v1.0
+1668706988 source:j:\tp final biblioteca main con menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<conio.h>
+	"menuGeneral.h"
+
+1668707180 j:\tp final biblioteca main con menu\menugeneral.h
+
+1668714120 source:j:\tp final biblioteca main con menu\manager.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<conio.h>
+	"Manager.h"
+	"stFacturas/listaFactura.h"
+	"stLibros/tdaListaGenero.h"
+	"stLibros/tdaListaGenero.h"
+	"stLibros/ArchivosLibros.h"
+	"stCliente/ArchivosClientes.h"
+	"stCliente/arbol.h"
+
+1668686512 j:\tp final biblioteca main con menu\manager.h
+	"stFacturas/listaFactura.h"
+	"stLibros/tdaListaGenero.h"
+	"stLibros/tdaListaGenero.h"
+	"stLibros/ArchivosLibros.h"
+	"stCliente/ArchivosClientes.h"
+	"stCliente/arbol.h"
+
+1668613350 j:\tp final biblioteca main con menu\stfacturas\listafactura.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stFactura.h"
+
+1668694966 j:\tp final biblioteca main con menu\stfacturas\stfactura.h
+	"../stLibros/tdaListaGenero.h"
+	"stProducto.h"
+
+1668690540 j:\tp final biblioteca main con menu\stlibros\tdalistagenero.h
+	"tdaListaLibros.h"
+
+1668690234 j:\tp final biblioteca main con menu\stlibros\tdalistalibros.h
+
+1668616800 j:\tp final biblioteca main con menu\stfacturas\stproducto.h
+
+1668645336 j:\tp final biblioteca main con menu\stlibros\archivoslibros.h
+	"tdaListaGenero.h"
+
+1668624778 j:\tp final biblioteca main con menu\stcliente\archivosclientes.h
+	"arbol.h"
+
+1668695220 j:\tp final biblioteca main con menu\stcliente\arbol.h
+	"stCliente.h"
+
+1668698542 j:\tp final biblioteca main con menu\stcliente\stcliente.h
+	"../stFacturas/stFactura.h"
+
+1668728956 source:j:\tp final biblioteca main con menu\menugeneral.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<strings.h>
+	<windows.h>
+	"stUsuario/listaUsuario.h"
+	"Manager.h"
+
+1668695140 j:\tp final biblioteca main con menu\stusuario\listausuario.h
+
+1668704728 source:j:\tp final biblioteca main con menu\stcliente\arbol.c
+	<stdlib.h>
+	<stdio.h>
+	"arbol.h"
+	"stCliente.h"
+	"../stLibros/tdaListaGenero.h"
+	"ArchivosClientes.h"
+
+1668726888 source:j:\tp final biblioteca main con menu\stcliente\archivosclientes.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"ArchivosClientes.h"
+	"stCliente.h"
+	"arbol.h"
+	"../stFacturas/stFactura.h"
+	"../stLibros/tdaListaGenero.h"
+
+1668695312 source:j:\tp final biblioteca main con menu\stcliente\stcliente.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"stCliente.h"
+	"../stFacturas/stFactura.h"
+
+1668618644 source:j:\tp final biblioteca main con menu\stfacturas\archivofacturas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<conio.h>
+	"archivoFacturas.h"
+	"listaFactura.h"
+
+1668618644 j:\tp final biblioteca main con menu\stfacturas\archivofacturas.h
+	"listaFactura.h"
+
+1668712634 source:j:\tp final biblioteca main con menu\stfacturas\listafactura.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listaFactura.h"
+	"stFactura.h"
+
+1668712686 source:j:\tp final biblioteca main con menu\stfacturas\stfactura.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"../stLibros/tdaListaGenero.h"
+	"stFactura.h"
+	"stProducto.h"
+
+1668712686 source:j:\tp final biblioteca main con menu\stfacturas\stproducto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stProducto.h"
+
+1668646292 source:j:\tp final biblioteca main con menu\stlibros\archivoslibros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tdaListaLibros.h"
+	"ArchivosLibros.h"
+	"tdaListaGenero.h"
+
+1668711002 source:j:\tp final biblioteca main con menu\stlibros\tdalistagenero.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tdaListaLibros.h"
+	"ArchivosLibros.h"
+	"tdaListaGenero.h"
+
+1668710226 source:j:\tp final biblioteca main con menu\stlibros\tdalistalibros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tdaListaLibros.h"
+	"ArchivosLibros.h"
+	"tdaListaGenero.h"
+
+1668707012 source:j:\tp final biblioteca main con menu\stusuario\archivousuario.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<strings.h>
+	<windows.h>
+	"listaUsuario.h"
+
+1668705726 source:j:\tp final biblioteca main con menu\stusuario\listausuario.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<strings.h>
+	<windows.h>
+	"listaUsuario.h"
+
